@@ -10,7 +10,7 @@ Need help? Email **[davestubbs@hotmail.com](mailto:davestubbs@hotmail.com)** and
 
 To help me sort it out quickly, include:
 
-- your iPhone model and iOS version
+- your iPhone or iPad model and iOS version
 - the app version (shown at the top of the Settings tab)
 - what you did, what you expected, and what happened instead
 - for purchase problems, roughly when you bought and which pack
@@ -33,11 +33,11 @@ Any surf video works: your own footage, a friend's filming, or clips AirDropped 
 
 ### Do my videos get uploaded?
 
-No. Analysis happens entirely on your iPhone. Full Coaching sends that wave's numbers and still frames from the clip (a few wide shots and close-ups of you), never the video. See the [Privacy Policy](../privacy/) for details.
+No. Analysis happens entirely on your iPhone or iPad. Full Coaching sends that wave's numbers and still frames from the clip (a few wide shots and close-ups of you), never the video. See the [Privacy Policy](../privacy/) for details.
 
 ### What's free, and what do credits buy?
 
-Analysis, stats and **Quick Take** coaching are always free, and they run on your iPhone. **Full Coaching** studies photos of your whole ride, wide shots of the wave and close-ups of you about every third of a second, and gives you an overview, timed moments to watch, what's working, and fixes with drills. It costs one credit per wave. Credits come in packs of 5 and 10.
+Analysis, stats and **Quick Take** coaching are always free, and they run on your device. Quick Take reads your ride's measurements and gives you what's working, what to fix and a drill, as often as you like. **Full Coaching** studies photos of your whole ride, wide shots of the wave and close-ups of you about every third of a second, and gives you an overview, timed moments to watch, what's working, and fixes with drills. It costs one credit per wave. Credits come in packs of 5 and 10.
 
 ### How do I watch my ride with the coach?
 
@@ -59,13 +59,13 @@ No. Credits never expire.
 
 If the purchase went through but the credits haven't arrived, they'll be added automatically the next time you open Carvesense with an internet connection. If they still haven't appeared after that, email me with roughly when you bought them.
 
-### Will I lose my credits if I delete the app or change phones?
+### Will I lose my credits if I delete the app or change devices?
 
-Credits are tied to an identifier stored in your iPhone's Keychain. That identifier survives deleting and reinstalling the app on the same phone. It also moves to a new phone if you restore from an encrypted iCloud or computer backup. If you set up a new phone some other way, email me and I'll help move your balance.
+Credits are tied to an identifier stored in your device's Keychain. That identifier survives deleting and reinstalling the app on the same device. It also moves to a new device if you restore from an encrypted iCloud or computer backup. If you set up a new device some other way, email me and I'll help move your balance.
 
 ### Quick Take says it isn't available
 
-Quick Take runs on-device using Apple Intelligence, so it needs iOS 26 or later on an iPhone that supports Apple Intelligence, with Apple Intelligence turned on in Settings. Just after it's turned on, it may need some time to finish preparing. If Quick Take is unavailable, analysis and Full Coaching still work.
+Quick Take runs on-device using Apple Intelligence, so it needs iOS 26 or later on an iPhone or iPad that supports Apple Intelligence, with Apple Intelligence turned on in Settings. Just after it's turned on, it may need some time to finish preparing. If Quick Take is unavailable, analysis and Full Coaching still work.
 
 ### How do I get a refund?
 

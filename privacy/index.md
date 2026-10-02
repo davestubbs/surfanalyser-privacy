@@ -1,7 +1,7 @@
 ---
 title: Carvesense Privacy Policy
 layout: page
-description: What Carvesense keeps on your iPhone, what Full Coaching sends, and what our server keeps.
+description: What Carvesense keeps on your device, what Full Coaching sends, and what our server keeps.
 ---
 
 # Carvesense Privacy Policy
@@ -10,8 +10,8 @@ description: What Carvesense keeps on your iPhone, what Full Coaching sends, and
 
 **In short:**
 
-- Your surf videos are analysed entirely on your iPhone and are never uploaded.
-- Quick Take coaching runs on your iPhone too. Data only leaves your phone when you use Full Coaching, buy credits, or the app checks your credit balance.
+- Your surf videos are analysed entirely on your iPhone or iPad and are never uploaded.
+- Quick Take coaching runs on your device too. Data only leaves your device when you use Full Coaching, buy credits, or the app checks your credit balance.
 - We don't use advertising, analytics or tracking, and we never sell your data.
 - You can export or delete everything the app stores from Settings.
 
@@ -21,19 +21,19 @@ Carvesense is an iOS app made by David Stubbs, an independent developer. In this
 
 ## Data that stays on your device
 
-You choose which clips to analyse. The app measures your rides (for example ride length, speed, knee bend and pop-up) on your iPhone. Your videos, and the sessions, metrics, coaching notes and practice plan the app creates from them, are stored only on your device. We can't see any of it.
+You choose which clips to analyse. The app measures your rides (for example ride length, speed, knee bend and pop-up) on your device. Your videos, and the sessions, metrics, coaching notes and practice plan the app creates from them, are stored only on your device. We can't see any of it.
 
-Quick Take coaching, including automatic coaching after import, is generated on your iPhone and never sent anywhere.
+Quick Take coaching, including automatic coaching after import, is generated on your device and never sent anywhere.
 
 ## Data sent for Full Coaching
 
 Full Coaching only runs when you ask for it. When it does, the app sends our coaching server:
 
 - **Ride measurements** for that one wave: the numbers the app calculated, the clip's length and resolution, and the session details shown in the app (date, venue, wave size and direction). Your other waves aren't sent.
-- **Still frames from the clip.** A few wide frames of the whole clip, so the coach can see the wave and where you are on it, and close-ups cropped around you about every third of a second through the ride, combined into a handful of filmstrip images. The full video is never sent. If the clip is no longer on your phone, only the measurements are sent.
+- **Still frames from the clip.** A few wide frames of the whole clip, so the coach can see the wave and where you are on it, and close-ups cropped around you about every third of a second through the ride, combined into a handful of filmstrip images. The full video is never sent. If the clip is no longer on your device, only the measurements are sent.
 - **A random install identifier** that the app creates. It isn't linked to your name, email, Apple ID or advertising identifier. We use it to keep track of your coaching credits and daily coaching limit.
 
-Our server passes the measurements and frames to Anthropic, which provides the AI model that writes your coaching. Anthropic processes the data under its commercial API terms, which don't allow it to train models on that data. The coaching text then comes back to your phone.
+Our server passes the measurements and frames to Anthropic, which provides the AI model that writes your coaching. Anthropic processes the data under its commercial API terms, which don't allow it to train models on that data. The coaching text then comes back to your device.
 
 ## What our server keeps
 
@@ -61,7 +61,7 @@ Coaching credits are bought through Apple's App Store. Apple handles payment, an
 ## Your choices and rights
 
 - **Export:** Settings › Export my data saves everything the app stores (except videos) as a JSON file.
-- **Delete:** Settings › Delete all data erases the app's data from your phone. Deleting the app also removes it.
+- **Delete:** Settings › Delete all data erases the app's data from your device. Deleting the app also removes it.
 - **Server data:** to have your credit record deleted, email us. Because the identifier is random, you'll need to tell us roughly when you made purchases so we can find it. Deleting it also deletes any unused credits.
 
 Depending on where you live, for example in the UK or EU, you may have rights to access, correct, delete or object to the processing of your personal data, and to complain to your data protection authority. Email us to use any of these rights.

@@ -76,7 +76,7 @@ a:hover { color: var(--seafoam); }
 .feature .phone.landscape { width: 100%; max-width: 520px; }
 
 /* iPad frame (landscape) for the video */
-.tablet { position: relative; width: min(900px, 94vw); margin: 0 auto; aspect-ratio: 4 / 3; border-radius: 4.5% / 6%; background: linear-gradient(#2e2e32, #08080a); padding: 2.2%; box-shadow: 0 40px 90px -30px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(255, 255, 255, 0.06) inset; }
+.tablet { position: relative; width: 100%; max-width: 900px; margin: 0 auto; aspect-ratio: 4 / 3; border-radius: 4.5% / 6%; background: linear-gradient(#2e2e32, #08080a); padding: 2.2%; box-shadow: 0 40px 90px -30px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(255, 255, 255, 0.06) inset; }
 .tablet video, .tablet img { width: 100%; height: 100%; object-fit: cover; border-radius: 2.6% / 3.5%; background: #000; }
 
 /* ── Sections ── */
@@ -119,6 +119,8 @@ section { padding: 88px 0; }
 .price .amount { font: 800 20px/1.3 var(--font-round); color: var(--seafoam); margin-bottom: 14px; }
 .price.full .amount { color: var(--sunset); }
 .price ul { margin: 0; padding-left: 20px; color: var(--ink-2); }
+
+.always-free { max-width: 860px; margin: 22px auto 0; text-align: center; color: var(--ink-2); }
 
 .final { text-align: center; background: var(--ocean); }
 .final img.icon { width: 96px; height: 96px; border-radius: 22px; margin: 0 auto 22px; box-shadow: 0 16px 40px -18px rgba(13, 35, 52, 0.5); }
