@@ -49,7 +49,7 @@ Open a wave that has Full Coaching and tap one of the **Moments to watch**, or o
 
 ### The coach said something that doesn't match my ride
 
-Coaching can only be as good as what's in the clip. A side-on clip where you're large in the frame works best. If something still looks wrong, use **Coach Again** (Quick Take is free), or email me the wave's date and what was off. It genuinely helps improve the coaching.
+Coaching can only be as good as what's in the clip. A side-on clip where you're large in the frame works best. If something still looks wrong, use **Coach Again** (Quick Take is free), or email me the video clip and what was off. If the clip is too big to attach, send a link to it instead (iCloud Drive, Google Drive or similar). Your clips never leave your device on their own, so I can only look into a coaching if you send me the clip. It genuinely helps improve the coaching.
 
 ### Do credits expire?
 
