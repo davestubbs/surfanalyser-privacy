@@ -40,6 +40,7 @@ Our server passes the measurements and frames to Anthropic, which provides the A
 - **Coaching responses** are cached for up to 30 days, so analysing the same ride again doesn't need a second AI request. The cache stores the response text and a one-way hash of the request. It doesn't store your images or your install identifier.
 - **Usage and cost records:** for each AI request we log the time, the model used, token counts and cost. These records contain no ride data or identifiers.
 - **Credit records:** your install identifier and credit balance, plus, for each purchase, the App Store transaction ID, the product bought and the date, and any credits we add by hand when helping with a support request. We keep these so credits aren't lost or applied twice.
+- **Basic app details:** each time the app contacts our server we note, against the install identifier, the app version, your iOS version and your device model (for example "iPhone17,1"), and when the install was first and last seen. We use this to understand which versions are in use and to troubleshoot. It isn't your name, email, IP address or location, and it never leaves our server.
 - **Rate-limit counters:** a daily count of coaching requests for each install (stored as a one-way hash of the identifier) and overall, used to prevent abuse.
 - **Server logs:** like most web servers, ours may record IP addresses and request times for security and troubleshooting, and an error message can include the install identifier. These logs are kept only for a short time.
 
