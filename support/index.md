@@ -1,5 +1,7 @@
 ---
 title: Carvesense Support
+layout: page
+description: Help with Carvesense: filming tips, coaching, credits and your data.
 ---
 
 # Carvesense Support
@@ -31,11 +33,23 @@ Any surf video works: your own footage, a friend's filming, or clips AirDropped 
 
 ### Do my videos get uploaded?
 
-No. Analysis happens entirely on your iPhone. Full Coaching sends your ride's numbers and a few cropped still frames, never the video. See the [Privacy Policy](../privacy/) for details.
+No. Analysis happens entirely on your iPhone. Full Coaching sends that wave's numbers and still frames from the clip (a few wide shots and close-ups of you), never the video. See the [Privacy Policy](../privacy/) for details.
 
 ### What's free, and what do credits buy?
 
-Analysis, stats and **Quick Take** coaching are always free, and they run on your iPhone. **Full Coaching** gives a deeper look at a single wave, using still frames of your technique. It costs one credit.
+Analysis, stats and **Quick Take** coaching are always free, and they run on your iPhone. **Full Coaching** studies photos of your whole ride, wide shots of the wave and close-ups of you about every third of a second, and gives you an overview, timed moments to watch, what's working, and fixes with drills. It costs one credit per wave. Credits come in packs of 5 and 10.
+
+### How do I watch my ride with the coach?
+
+Open a wave that has Full Coaching and tap one of the **Moments to watch**, or open the video full screen and turn on **With coach**. The player slows to half speed just before each moment, pauses on it with the coach's note, then carries on when you tap **Next moment**. Scrubbing or tapping a marker on the timeline leaves the mode.
+
+### What do Follow and Rider do in the player?
+
+**Follow** zooms in on you and moves with you through the ride, which helps a lot with clips filmed from further away. **Rider** draws a box around the person Carvesense is tracking, so you can check it picked the right surfer.
+
+### The coach said something that doesn't match my ride
+
+Coaching can only be as good as what's in the clip. A side-on clip where you're large in the frame works best. If something still looks wrong, use **Coach Again** (Quick Take is free), or email me the wave's date and what was off. It genuinely helps improve the coaching.
 
 ### Do credits expire?
 

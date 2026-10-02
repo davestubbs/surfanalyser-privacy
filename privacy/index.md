@@ -1,5 +1,7 @@
 ---
 title: Carvesense Privacy Policy
+layout: page
+description: What Carvesense keeps on your iPhone, what Full Coaching sends, and what our server keeps.
 ---
 
 # Carvesense Privacy Policy
@@ -9,7 +11,7 @@ title: Carvesense Privacy Policy
 **In short:**
 
 - Your surf videos are analysed entirely on your iPhone and are never uploaded.
-- Quick Take coaching runs on your iPhone too. Data only leaves your phone when you use Full Coaching or buy credits.
+- Quick Take coaching runs on your iPhone too. Data only leaves your phone when you use Full Coaching, buy credits, or the app checks your credit balance.
 - We don't use advertising, analytics or tracking, and we never sell your data.
 - You can export or delete everything the app stores from Settings.
 
@@ -19,7 +21,7 @@ Carvesense is an iOS app made by David Stubbs, an independent developer. In this
 
 ## Data that stays on your device
 
-You choose which clips to analyse. The app measures your rides (for example pop-up speed, turns and body position) on your iPhone. Your videos, and the sessions, metrics, coaching notes and practice plan the app creates from them, are stored only on your device. We can't see any of it.
+You choose which clips to analyse. The app measures your rides (for example ride length, speed, knee bend and pop-up) on your iPhone. Your videos, and the sessions, metrics, coaching notes and practice plan the app creates from them, are stored only on your device. We can't see any of it.
 
 Quick Take coaching, including automatic coaching after import, is generated on your iPhone and never sent anywhere.
 
@@ -27,9 +29,9 @@ Quick Take coaching, including automatic coaching after import, is generated on 
 
 Full Coaching only runs when you ask for it. When it does, the app sends our coaching server:
 
-- **Ride measurements**, such as the numbers the app calculated for a wave, along with a short summary of your recent rides so the advice can follow your progress.
-- **A few still frames.** These are a small set of still images taken from the clip and cropped around you and your board, so the coach can comment on technique. The full video is never sent.
-- **A random install identifier** that the app creates. It isn't linked to your name, email, Apple ID or advertising identifier. We use it to keep track of your coaching credits.
+- **Ride measurements** for that one wave: the numbers the app calculated, the clip's length and resolution, and the session details shown in the app (date, venue, wave size and direction). Your other waves aren't sent.
+- **Still frames from the clip.** A few wide frames of the whole clip, so the coach can see the wave and where you are on it, and close-ups cropped around you about every third of a second through the ride, combined into a handful of filmstrip images. The full video is never sent. If the clip is no longer on your phone, only the measurements are sent.
+- **A random install identifier** that the app creates. It isn't linked to your name, email, Apple ID or advertising identifier. We use it to keep track of your coaching credits and daily coaching limit.
 
 Our server passes the measurements and frames to Anthropic, which provides the AI model that writes your coaching. Anthropic processes the data under its commercial API terms, which don't allow it to train models on that data. The coaching text then comes back to your phone.
 
@@ -37,9 +39,13 @@ Our server passes the measurements and frames to Anthropic, which provides the A
 
 - **Coaching responses** are cached for up to 30 days, so analysing the same ride again doesn't need a second AI request. The cache stores the response text and a one-way hash of the request. It doesn't store your images or your install identifier.
 - **Usage and cost records:** for each AI request we log the time, the model used, token counts and cost. These records contain no ride data or identifiers.
-- **Credit records:** your install identifier and credit balance, plus, for each purchase, the App Store transaction ID, the product bought and the date. We keep these so credits aren't lost or applied twice.
-- **Rate-limit counters:** a daily count of requests, used to prevent abuse.
-- **Server logs:** like most web servers, ours may record IP addresses and request times for security and troubleshooting. These logs are kept only for a short time.
+- **Credit records:** your install identifier and credit balance, plus, for each purchase, the App Store transaction ID, the product bought and the date, and any credits we add by hand when helping with a support request. We keep these so credits aren't lost or applied twice.
+- **Rate-limit counters:** a daily count of coaching requests for each install (stored as a one-way hash of the identifier) and overall, used to prevent abuse.
+- **Server logs:** like most web servers, ours may record IP addresses and request times for security and troubleshooting, and an error message can include the install identifier. These logs are kept only for a short time.
+
+## Checking your credit balance
+
+When the app starts, and when you open the credits page, it asks our server for your balance. That request carries only the random install identifier.
 
 ## Purchases
 
