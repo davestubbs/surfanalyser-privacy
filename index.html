@@ -130,10 +130,13 @@
       <h2>Watch it coach</h2>
       <p>A real ride, played with the coach: half speed into each moment, a pause, the note, and on.</p>
     </div>
-    <div class="tablet">
+    <div class="tablet wide-only">
       <video src="assets/video/carvesense-with-coach.mp4" poster="assets/video/carvesense-with-coach.jpg" controls muted playsinline loop preload="none" data-autoplay></video>
     </div>
-    <p class="video-caption">A screen recording of the Carvesense player with a wave pool clip imported from Files.</p>
+    <div class="phone landscape phone-only">
+      <video src="assets/video/carvesense-with-coach-iphone.mp4" poster="assets/video/carvesense-with-coach-iphone.jpg" controls muted playsinline loop preload="none" data-autoplay></video>
+    </div>
+    <p class="video-caption">A screen recording of the Carvesense player with a wave pool clip imported from Files.<span class="phone-only"> Go full screen to read the coach's notes.</span></p>
   </div>
   <svg class="edge bottom" viewBox="0 0 1440 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0 60 H1440 V30 Q 1080 0 720 28 T 0 22 Z"/></svg>
 </section>
@@ -228,14 +231,17 @@
   }, { rootMargin: "0px 0px -8% 0px" });
   document.querySelectorAll(".reveal").forEach(function (el) { reveal.observe(el); });
   if (still) return;
-  // Plays while on screen, pauses when scrolled away; once the viewer pauses it themselves, hands off.
-  var video = document.querySelector("video[data-autoplay]"), visible = false, touched = false;
-  video.addEventListener("pause", function () { if (visible) touched = true; });
-  new IntersectionObserver(function (entries) {
-    visible = entries[0].isIntersecting;
-    if (touched) return;
-    if (visible) video.play().catch(function () {}); else video.pause();
-  }, { threshold: 0.5 }).observe(video);
+  // Each video plays while on screen and pauses when scrolled away; once the viewer pauses it
+  // themselves, it's theirs. (The one hidden by the layout never comes on screen, so never loads.)
+  document.querySelectorAll("video[data-autoplay]").forEach(function (video) {
+    var visible = false, touched = false;
+    video.addEventListener("pause", function () { if (visible) touched = true; });
+    new IntersectionObserver(function (entries) {
+      visible = entries[0].isIntersecting;
+      if (touched) return;
+      if (visible) video.play().catch(function () {}); else video.pause();
+    }, { threshold: 0.5 }).observe(video);
+  });
 })();
 </script>
 </body>
