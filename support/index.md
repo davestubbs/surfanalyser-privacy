@@ -37,7 +37,7 @@ No. Analysis happens entirely on your iPhone or iPad. Full Coaching sends that w
 
 ### What's free, and what do credits buy?
 
-Analysis, stats and **Quick Take** coaching are always free, and they run on your device. Quick Take reads your ride's measurements and gives you what's working, what to fix and a drill, as often as you like. **Full Coaching** studies photos of your whole ride, wide shots of the wave and close-ups of you about every third of a second, and gives you an overview, timed moments to watch, what's working, and fixes with drills. It costs one credit per wave. Credits come in packs of 5 and 10.
+Analysis, stats and **Quick Take** coaching are always free, and they run on your device. Quick Take reads your ride's measurements and gives you what's working, what to fix and a drill, as often as you like. **Full Coaching** studies photos of your whole ride, wide shots of the wave and close-ups of you about every third of a second, and gives you an overview, timed moments to watch, what's working, and fixes with drills. It costs one credit per wave. Credit packs of 5 and 10 are coming soon.
 
 ### How do I watch my ride with the coach?
 
