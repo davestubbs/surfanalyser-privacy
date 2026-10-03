@@ -101,6 +101,7 @@ a:hover { color: var(--seafoam); }
 .feature-art { position: relative; justify-self: center; width: 100%; display: flex; justify-content: center; }
 .feature-art::before { content: ""; position: absolute; inset: -18% -14%; z-index: 0; background: radial-gradient(closest-side, color-mix(in srgb, var(--glow, var(--seafoam)) 42%, transparent), color-mix(in srgb, var(--glow, var(--seafoam)) 12%, transparent) 60%, transparent); pointer-events: none; }
 .feature-art > .phone { z-index: 1; }
+.feature-art.duo { align-items: flex-start; }
 .feature-art.duo .phone { width: min(260px, 42vw); margin: 0; }
 .feature-art.duo .phone + .phone { margin: 70px 0 0 -64px; z-index: 2; }
 .feature-art.duo .phone:first-child { transform: rotate(-3deg); }
